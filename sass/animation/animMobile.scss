@@ -1,0 +1,41 @@
+@media screen and (max-width: 1024px) {
+#jsProgress,#cssProgress,#htmlProgress {
+    position: absolute;
+    margin-top: -2%;
+    -webkit-animation: both;
+    -webkit-animation-duration: 5s;
+  }
+  #jsProgress {
+    -webkit-animation-name: javascriptprogress;
+  }
+  #cssProgress{
+    -webkit-animation-name: cssprogress;
+  }  
+  #htmlProgress{
+    -webkit-animation-name: htmlprogress;
+  }
+  @-webkit-keyframes javascriptprogress {
+    0% {
+      padding-left: 0;
+    }
+    100% {
+      padding-left: 55%;
+    }
+  }
+  @-webkit-keyframes cssprogress {
+    0% {
+      padding-left: 0;
+    }
+    100% {
+      padding-left: 85%;
+    }
+  }
+  @-webkit-keyframes htmlprogress {
+    0% {
+      padding-left: 0;
+    }
+    100% {
+      padding-left: 88%;
+    }
+  }
+}
