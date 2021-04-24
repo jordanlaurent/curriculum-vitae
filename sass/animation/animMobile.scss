@@ -1,5 +1,8 @@
 @media screen and (max-width: 1024px) {
-#jsProgress,#cssProgress,#htmlProgress {
+  .Contour,.Contour1,.Contour2,.Contour3,.Contour4{
+    display: none;
+  }
+#jsProgress,#cssProgress,#htmlProgress,#SEOProgress {
     position: absolute;
     margin-top: -2%;
     -webkit-animation: both;
@@ -11,6 +14,9 @@
   #cssProgress{
     -webkit-animation-name: cssprogress;
   }  
+  #SEOProgress{
+    -webkit-animation-name: seoProgress;
+  }
   #htmlProgress{
     -webkit-animation-name: htmlprogress;
   }
@@ -30,6 +36,14 @@
       padding-left: 85%;
     }
   }
+  @-webkit-keyframes seoProgress {
+    0% {
+      padding-left: 0;
+    }
+    100% {
+      padding-left: 75%;
+    }
+}
   @-webkit-keyframes htmlprogress {
     0% {
       padding-left: 0;

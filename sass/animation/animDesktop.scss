@@ -1,5 +1,5 @@
 @media screen and (min-width: 1024px) {
-    #jsProgress,#cssProgress,#htmlProgress {
+    #jsProgress,#cssProgress,#htmlProgress,#SEOProgress {
         position: absolute;
         margin-top: -1%;
         -webkit-animation: both;
@@ -11,6 +11,9 @@
       #cssProgress{
         -webkit-animation-name: cssprogress;
       }  
+      #SEOProgress{
+        -webkit-animation-name: seoProgress;
+      }
       #htmlProgress{
         -webkit-animation-name: htmlprogress;
       }
@@ -22,6 +25,14 @@
           padding-left: 12%;
         }
       }
+      @-webkit-keyframes seoProgress {
+        0% {
+          padding-left: 0;
+        }
+        100% {
+          padding-left: 17%;
+        }
+    }
       @-webkit-keyframes cssprogress {
         0% {
           padding-left: 0;
@@ -37,5 +48,125 @@
         100% {
           padding-left: 20%;
         }
+      }
+      
+    .Contour,.Contour1,.Contour2,.Contour3,.Contour4 {
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      margin-top: -1%;
+      -webkit-animation: infinite;
+    }
+    .Contour {
+      -webkit-animation-name: contourprogress;
+      -webkit-animation-duration: 3s;
+    }    .Contour1 {
+      -webkit-animation-name: contourprogress1;
+      -webkit-animation-duration: 5s;
+    }    .Contour2 {
+      -webkit-animation-name: contourprogress2;
+      -webkit-animation-duration: 3s;
+    }    .Contour3 {
+      -webkit-animation-name: contourprogress3;
+      -webkit-animation-duration: 2s;
+    }    .Contour4 {
+      -webkit-animation-name: contourprogress4;
+      -webkit-animation-duration: 4s;
+    }
+    @-webkit-keyframes contourprogress {
+      0% {
+        top: 35%;
+        width: 5rem;
+        margin-left: 66%;
+      }
+      99% {
+        top: 45%;
+        width: 3px;
+        margin-left: 0%;
+      }
+      100% {
+        width: 0px;
+      }
+    }
+        @-webkit-keyframes contourprogress1 {
+      0% {
+        top: 25%;
+        width: 5rem;
+        margin-left: 0;
+      }
+      99% {
+        top: 45%;
+        width: 3px;
+        margin-left: 66%;
+      }
+      100% {
+        width: 0px;
+      }
+    }
+    @-webkit-keyframes contourprogress2 {
+      0% {
+        top: 68%;
+        width: 5rem;
+        margin-left: 0;
+      }
+      49% {
+        top: 68%;
+        width: 3px;
+        margin-left: 66%;
+      }
+      50% {
+        width: 0px;
+      } 
+      100% {
+        top: 68%;
+        width: 5rem;
+        margin-left: 0;
+      }
+    }
+    @-webkit-keyframes contourprogress3 {
+      0% {
+        top: 95%;
+        width: 5rem;
+        margin-left: 66%;
+      }
+      99% {
+        top: 75%;
+        width: 3px;
+        margin-left: 0%;
+      }
+      100% {
+        width: 0px;
+      }
+    }
+    @-webkit-keyframes contourprogress4 {
+      0% {
+        top: 95%;
+        width: 5rem;
+        margin-left: 0;
+      }
+      99% {
+        top: 75%;
+        width: 3px;
+        margin-left: 66%;
+      }
+      100% {
+        width: 0px;
+      }
+    }
+
+    }
+
+    .Rotate:hover{
+      -webkit-animation-name: rotateprogress;
+      -webkit-animation-duration: 2s;
+    }
+    @-webkit-keyframes rotateprogress {
+      0%{
+        transform: rotate(360deg); 
+      }50%{
+        transform: rotate(180deg); 
+      }
+      75%{
+        transform: rotate(360deg); 
       }
     }

@@ -2,10 +2,13 @@
     .DisplayIndex {
       display:flex;
       flex-direction: column;
+      height: auto;
     }
     .Menu{ max-width: 100%;margin: 0%; }
     .Infos{min-width: 100%;}
     .Cube{display: flex; flex-direction: column; justify-content: center;}
     .CubeDesign{border-radius: 3%;margin: 1%;padding: 1%;text-align: center; }
     .NumberExp{display: flex; flex-direction: column; text-align: center;}
+    footer{position: relative; bottom: 0;display: flex; justify-content: center;}
+    footer > h3{font-size: 1rem;}
 }
