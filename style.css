@@ -192,8 +192,12 @@ body {
   margin: 2%;
 }
 
-p {
-  font-size: 1rem;
+p, li {
+  font-size: 18px;
+}
+
+.TitleP {
+  font-size: 22px;
 }
 
 h2 {
@@ -222,19 +226,23 @@ li {
     display: flex;
     flex-direction: row;
   }
-  .DisplayIndex .Menu {
+
+  .Menu {
     max-width: 25%;
     margin-right: 5%;
     z-index: 2;
   }
-  .DisplayIndex .Infos {
-    min-width: 3%;
+
+  .Infos {
+    min-width: 5%;
   }
-  .DisplayIndex .Cube {
+
+  .Cube {
     display: flex;
     justify-content: space-evenly;
   }
-  .DisplayIndex .CubeDesign {
+
+  .CubeDesign {
     border-radius: 3%;
     margin: 1%;
     padding: 1%;
@@ -243,15 +251,14 @@ li {
     z-index: 2;
     transition: transform 0.2s;
   }
-  .DisplayIndex .CubeDesign:hover {
+
+  .CubeDesign:hover {
     transform: scale(1.3);
     z-index: 3;
     animation-duration: 2s;
   }
-  .DisplayIndex .SliderImg, .DisplayIndex .SliderImgProject {
-    padding: 1%;
-  }
-  .DisplayIndex .SocialLogo {
+
+  .SocialLogo {
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -260,12 +267,14 @@ li {
     right: 70%;
     padding-top: 1px;
   }
-  .DisplayIndex .NumberExp {
+
+  .NumberExp {
     display: flex;
     justify-content: space-evenly;
   }
-  .DisplayIndex .DysplayTop {
-    margin-bottom: 35%;
+
+  .DysplayTop {
+    margin-bottom: 2%;
   }
 
   footer {
