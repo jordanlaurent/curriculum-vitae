@@ -2,80 +2,62 @@
   color: #EAB543;
 }
 
-body {
-  background-image: linear-gradient(#1f1f2b, rgba(31, 31, 43, 0.877)), url("./img/bodyImg.jpg");
+body, nav {
+  background-color: #000517;
 }
 
-.Menu {
-  background-color: #1f1f2b;
-}
-
-.Infos {
-  background-color: #1f1f2b;
+.ColorFixedBack {
+  background: linear-gradient(217deg, #412eb9, #100120 70.71%), linear-gradient(127deg, #0c005a, rgba(255, 0, 212, 0) 70.71%), linear-gradient(336deg, #d4c9c9, #09001d 70.71%);
 }
 
 .CubeDesign {
-  background-color: #2d2d39;
+  background: linear-gradient(217deg, #918f8f9d, rgba(69, 80, 145, 0.315) 70.71%);
 }
 
 #CubeP7 {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/groupomania.jpg");
+  background-position: center;
 }
 
 #CubeP6 {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/sopeckoko.png");
+  background-position: center;
 }
 
 #CubeP5 {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/orinoco.png");
+  background-position: center;
 }
 
 #CubeP4 {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/lachouetteagence.png");
+  background-position: center;
 }
 
 #CubeP3 {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/protomarketplace.png");
+  background-position: center;
 }
 
 #CubeP2 {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/cvlaurentjordan.png");
+  background-position: center;
 }
 
-footer {
-  background-color: #2d2d39;
+hr {
+  border: 1px dashed white;
 }
 
-.ColorOr {
-  color: #EAB543;
+.ColorOr, .fa-linkedin, .fa-github, a:hover {
+  color: #bce215;
 }
 
-.ColorWhiteSmoke {
+.ColorWhiteSmoke, a {
   color: whitesmoke;
 }
 
 .ColorSecondary {
-  color: #15e271;
-}
-
-.HHtml {
-  background: #fed330;
-  border-color: #fed330;
-}
-
-.HCSStml {
-  background-color: #B33771;
-  border-color: #B33771;
-}
-
-.HJStml {
-  background-color: #fa8231;
-  border-color: #fa8231;
-}
-
-.SEOtml {
-  background-color: #d2dae2;
-  border-color: #d2dae2;
+  color: #bce215;
 }
 
 .fa-vuejs {
@@ -110,45 +92,42 @@ footer {
   color: white;
 }
 
+.fa-arrow-circle-down {
+  color: white;
+}
+
 body {
-  width: 95%;
-  padding: 1%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 3%;
 }
 
 .DisplayIndex {
-  width: 100%;
-  height: 100%;
+  padding: 4%;
 }
 
 .ImgProfil {
   border-radius: 50%;
-  max-width: 40%;
   margin-top: 5%;
+  border: 5px solid;
+  border-color: white;
 }
 
 .NamePhoto {
-  background-color: #252530;
   text-align: center;
-  border-radius: 2%;
-  padding-bottom: 2%;
 }
 
 .residence {
   padding-right: 12%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 8px;
 }
 
 .language {
-  display: flex;
-}
-
-.Hobbie {
-  padding-right: 5%;
-}
-
-.HobbieLi {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 1%;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .HHtml {
@@ -171,33 +150,43 @@ body {
   height: 5px;
 }
 
+.fa-arrow-circle-down {
+  padding-top: 8%;
+}
+
 .SocialLogo {
   display: flex;
   justify-content: space-evenly;
 }
 
-.SliderImg {
-  background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/banierreLaurentJordan.jpg");
-  border-top-left-radius: 2%;
-  border-top-right-radius: 2%;
+html {
+  scroll-behavior: smooth;
 }
 
-.SliderImgProject {
-  background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("./img/project.jpg");
-  border-top-left-radius: 2%;
-  border-top-right-radius: 2%;
-}
-
-.cubeDisplay {
-  margin: 2%;
+.BlockBlackText {
+  position: relative;
+  z-index: 2;
+  background-color: black;
+  padding: 5%;
+  margin-bottom: 10%;
 }
 
 p, li {
   font-size: 18px;
 }
 
-.TitleP {
+a {
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.MailLink {
   font-size: 22px;
+  transition-duration: 3s;
+}
+
+.TitleP {
+  font-size: 30px;
 }
 
 h2 {
@@ -209,7 +198,7 @@ h3 {
   line-height: 2px;
 }
 
-p, h1, h2, h3, li {
+p, h1, h2, h3, li, a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -221,20 +210,65 @@ li {
   text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
+.MailLink {
+  text-decoration: none;
+}
+
+.MailLink:hover {
+  background-color: rgba(0, 0, 0, 0.425);
+  border-radius: 2%;
+  padding: 1%;
+  font-size: 27px;
+  transition-duration: 2s;
+}
+
+@media screen and (min-width: 1025px) {
   .DisplayIndex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
-  .Menu {
-    max-width: 25%;
-    margin-right: 5%;
+  .ImgProfil {
+    max-width: 40%;
+  }
+
+  .fa-arrow-circle-down {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .NamePhoto {
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
     z-index: 2;
   }
 
-  .Infos {
-    min-width: 5%;
+  .ColorFixedBack {
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+    top: 8%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    z-index: 4;
+    top: 0;
+  }
+
+  .Menu {
+    max-width: 100%;
+    margin-right: 5%;
+    z-index: 2;
   }
 
   .Cube {
@@ -261,11 +295,8 @@ li {
   .SocialLogo {
     display: flex;
     justify-content: space-evenly;
-    position: relative;
-    bottom: 1%;
-    left: 0;
-    right: 70%;
-    padding-top: 1px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 
   .NumberExp {
@@ -273,17 +304,10 @@ li {
     justify-content: space-evenly;
   }
 
-  .DysplayTop {
-    margin-bottom: 2%;
-  }
-
-  footer {
-    position: relative;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
+  .BlockBlack2 {
+    padding-top: 10%;
+    margin-top: 10%;
+    padding-bottom: 10%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -293,13 +317,25 @@ li {
     height: auto;
   }
 
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    margin: 0;
+    background: linear-gradient(217deg, #412eb9, #100120 70.71%), linear-gradient(127deg, #0c005a, rgba(255, 0, 212, 0) 70.71%), linear-gradient(336deg, #d4c9c9, #09001d 70.71%);
+  }
+
+  .ImgProfil {
+    width: 60%;
+  }
+
   .Menu {
     max-width: 100%;
     margin: 0%;
-  }
-
-  .Infos {
-    min-width: 100%;
   }
 
   .Cube {
@@ -321,114 +357,58 @@ li {
     text-align: center;
   }
 
-  footer {
-    position: relative;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  footer > h3 {
-    font-size: 1rem;
+  h3 {
+    line-height: normal;
   }
 }
 @media screen and (min-width: 1024px) {
-  #jsProgress, #cssProgress, #htmlProgress, #SEOProgress {
-    position: absolute;
-    margin-top: -1%;
-    -webkit-animation: both;
-    -webkit-animation-duration: 5s;
-  }
-
-  #jsProgress {
-    -webkit-animation-name: javascriptprogress;
-  }
-
-  #cssProgress {
-    -webkit-animation-name: cssprogress;
-  }
-
-  #SEOProgress {
-    -webkit-animation-name: seoProgress;
-  }
-
-  #htmlProgress {
-    -webkit-animation-name: htmlprogress;
-  }
-
-  @-webkit-keyframes javascriptprogress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 12%;
-    }
-  }
-  @-webkit-keyframes seoProgress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 17%;
-    }
-  }
-  @-webkit-keyframes cssprogress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 19%;
-    }
-  }
-  @-webkit-keyframes htmlprogress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 20%;
-    }
-  }
   .Contour, .Contour1, .Contour2, .Contour3, .Contour4 {
     height: 2px;
     background-color: white;
     position: absolute;
     margin-top: -1%;
+    transition-duration: 3s;
     -webkit-animation: infinite;
   }
 
   .Contour {
     -webkit-animation-name: contourprogress;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 7s;
+    transition-duration: 3s;
   }
 
   .Contour1 {
     -webkit-animation-name: contourprogress1;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 13s;
+    transition-duration: 3s;
   }
 
   .Contour2 {
     -webkit-animation-name: contourprogress2;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 11s;
+    transition-duration: 3s;
   }
 
   .Contour3 {
     -webkit-animation-name: contourprogress3;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 15s;
+    transition-duration: 3s;
   }
 
   .Contour4 {
     -webkit-animation-name: contourprogress4;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 19s;
+    transition-duration: 3s;
   }
 
   @-webkit-keyframes contourprogress {
     0% {
-      top: 35%;
+      top: 15%;
       width: 5rem;
       margin-left: 66%;
     }
     99% {
-      top: 45%;
+      top: 85%;
       width: 3px;
       margin-left: 0%;
     }
@@ -438,12 +418,12 @@ li {
   }
   @-webkit-keyframes contourprogress1 {
     0% {
-      top: 25%;
+      top: 5%;
       width: 5rem;
       margin-left: 0;
     }
     99% {
-      top: 45%;
+      top: 75%;
       width: 3px;
       margin-left: 66%;
     }
@@ -453,12 +433,12 @@ li {
   }
   @-webkit-keyframes contourprogress2 {
     0% {
-      top: 68%;
+      top: 88%;
       width: 5rem;
       margin-left: 0;
     }
     49% {
-      top: 68%;
+      top: 28%;
       width: 3px;
       margin-left: 66%;
     }
@@ -478,12 +458,12 @@ li {
       margin-left: 66%;
     }
     99% {
-      top: 75%;
+      top: 25%;
       width: 3px;
       margin-left: 0%;
     }
     100% {
-      width: 0px;
+      width: 90px;
     }
   }
   @-webkit-keyframes contourprogress4 {
@@ -493,12 +473,12 @@ li {
       margin-left: 0;
     }
     99% {
-      top: 75%;
+      top: 5%;
       width: 3px;
       margin-left: 66%;
     }
     100% {
-      width: 0px;
+      width: 20px;
     }
   }
 }
@@ -521,62 +501,6 @@ li {
 @media screen and (max-width: 1024px) {
   .Contour, .Contour1, .Contour2, .Contour3, .Contour4 {
     display: none;
-  }
-
-  #jsProgress, #cssProgress, #htmlProgress, #SEOProgress {
-    position: absolute;
-    margin-top: -2%;
-    -webkit-animation: both;
-    -webkit-animation-duration: 5s;
-  }
-
-  #jsProgress {
-    -webkit-animation-name: javascriptprogress;
-  }
-
-  #cssProgress {
-    -webkit-animation-name: cssprogress;
-  }
-
-  #SEOProgress {
-    -webkit-animation-name: seoProgress;
-  }
-
-  #htmlProgress {
-    -webkit-animation-name: htmlprogress;
-  }
-
-  @-webkit-keyframes javascriptprogress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 55%;
-    }
-  }
-  @-webkit-keyframes cssprogress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 85%;
-    }
-  }
-  @-webkit-keyframes seoProgress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 75%;
-    }
-  }
-  @-webkit-keyframes htmlprogress {
-    0% {
-      padding-left: 0;
-    }
-    100% {
-      padding-left: 88%;
-    }
   }
 }
 

@@ -1,12 +1,13 @@
 .fab{color: #EAB543;}
-body{background-image:linear-gradient(#1f1f2b,rgba(31, 31, 43, 0.877)), url("./img/bodyImg.jpg") }
-.Menu{background-color:#1f1f2b;}
-.Infos{background-color:#1f1f2b}  
-.CubeDesign{background-color: #2d2d39;}
-#CubeP7{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/groupomania.jpg") ;}
-#CubeP6{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/sopeckoko.png") ;}
-#CubeP5{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/orinoco.png") ;}
-#CubeP4{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/lachouetteagence.png") ;}
-#CubeP3{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/protomarketplace.png") ;}
-#CubeP2{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/cvlaurentjordan.png") ;}
-footer{background-color: #2d2d39;}
+body,nav{background-color:#000517 } 
+.ColorFixedBack{background: linear-gradient(217deg, #412eb9, rgb(16, 1, 32) 70.71%),
+    linear-gradient(127deg, #0c005a, rgba(255, 0, 212, 0) 70.71%),
+    linear-gradient(336deg, #d4c9c9, rgb(9, 0, 29) 70.71%);}
+.CubeDesign{background: linear-gradient(217deg, #918f8f9d, rgba(69, 80, 145, 0.315) 70.71%); }
+#CubeP7{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/groupomania.jpg") ; background-position: center;}
+#CubeP6{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/sopeckoko.png") ; background-position: center;;}
+#CubeP5{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/orinoco.png") ; background-position: center;}
+#CubeP4{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/lachouetteagence.png") ; background-position: center;}
+#CubeP3{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/protomarketplace.png") ; background-position: center;}
+#CubeP2{background-image:linear-gradient(#1f1f2ba9,rgba(31, 31, 43, 0.897)), url("./img/cvlaurentjordan.png") ; background-position: center;}
+hr{ border: 1px dashed rgb(255, 255, 255);}

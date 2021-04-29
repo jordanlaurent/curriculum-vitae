@@ -1,12 +1,15 @@
 p,li{font-size: 18px;}
-.TitleP{font-size: 22px;}
+a{text-decoration: none; font-size: x-large;}
+.MailLink{font-size: 22px; transition-duration: 3s;}
+.TitleP{font-size: 30px;}
 h2{font-size: 3rem;}
 h3{font-size: 2rem;line-height:2px}
-p,h1,h2,h3,li{
+p,h1,h2,h3,li,a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 li{list-style: none;}
 .txtcenter{text-align: center;}
-
+.MailLink{text-decoration: none;}
+.MailLink:hover{ background-color: rgba(0, 0, 0, 0.425); border-radius: 2%; padding: 1%; font-size: 27px; transition-duration: 2s;}
 
 

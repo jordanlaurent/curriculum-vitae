@@ -1,15 +1,18 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .DisplayIndex {
       display:flex;
-      flex-direction: row;
+      flex-direction: column;
     }
-      .Menu{ max-width: 25%;margin-right: 5%;z-index: 2; }
-      .Infos{min-width: 5%;}
+    .ImgProfil{max-width: 40%;}
+    .fa-arrow-circle-down{padding-top: 2rem; padding-bottom: 4rem;}
+    .NamePhoto{text-align: center; padding-bottom: 3rem;padding-top: 4rem; z-index: 2;}
+    .ColorFixedBack{ position: fixed; left: 20%; right: 20%; bottom: 0; top: 8%; border-top-left-radius: 7%; border-top-right-radius: 7%;}
+     nav {display: flex; justify-content: space-around; align-items: center;position: fixed; left: 20%;right: 20%; z-index: 4; top: 0;}
+      .Menu{ max-width: 100%;margin-right: 5%;z-index: 2; }
       .Cube{display: flex;justify-content: space-evenly;}
       .CubeDesign{border-radius: 3%;margin: 1%;padding: 1%;text-align: center; width: 50%;z-index: 2;transition: transform .2s;}
       .CubeDesign:hover{ transform: scale(1.3); z-index: 3; animation-duration: 2s;}
-      .SocialLogo{display: flex; justify-content: space-evenly; position: relative; bottom: 1%;left: 0; right:70%; padding-top: 1px;}
+      .SocialLogo{display: flex; justify-content: space-evenly; padding-bottom: 1rem;padding-top: 1rem; }
       .NumberExp{display: flex; justify-content: space-evenly;}
-      .DysplayTop{margin-bottom: 2%;}
-    footer{position: relative; bottom: 0;right: 0;left: 0;display: flex; justify-content: center;}
-}
+      .BlockBlack2{padding-top: 10%; margin-top: 10%; padding-bottom: 10%;}
+  }

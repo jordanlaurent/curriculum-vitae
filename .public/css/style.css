@@ -176,13 +176,13 @@ body {
   justify-content: space-evenly;
 }
 
-.SliderImg {
+.BlockBlackText {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("../../img/banierreLaurentJordan.jpg");
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
 }
 
-.SliderImgProject {
+.BlockBlackTextProject {
   background-image: linear-gradient(#1f1f2ba9, rgba(31, 31, 43, 0.897)), url("../../img/project.jpg");
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
@@ -248,7 +248,7 @@ li {
     z-index: 3;
     animation-duration: 2s;
   }
-  .DisplayIndex .SliderImg, .DisplayIndex .SliderImgProject {
+  .DisplayIndex .BlockBlackText, .DisplayIndex .BlockBlackTextProject {
     padding: 1%;
   }
   .DisplayIndex .SocialLogo {
