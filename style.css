@@ -263,6 +263,7 @@ li {
     right: 20%;
     z-index: 4;
     top: 0;
+    padding-bottom: 20px;
   }
 
   .Menu {
@@ -308,6 +309,11 @@ li {
     padding-top: 10%;
     margin-top: 10%;
     padding-bottom: 10%;
+  }
+}
+@media screen and (min-width: 1905px) {
+  nav {
+    padding-bottom: 40px;
   }
 }
 @media screen and (max-width: 1024px) {
